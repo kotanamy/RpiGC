@@ -67,6 +67,7 @@ namespace RpiGC
         {
             const int screenWidth = 480;
             const int screenHeight = 320;
+            string label = "PotatoGames";
 
             int currentBtn = 0;
 
@@ -101,17 +102,22 @@ namespace RpiGC
                     }
                 }
 
+
+
                 if (IsKeyPressed(KEY_UP)){
                     currentBtn = currentBtn == -1 ? currentBtn : currentBtn-1;
                 }
                 if (IsKeyPressed(KEY_DOWN)){
                     currentBtn = currentBtn == buttons.Count-1 ? currentBtn : currentBtn+1;
                 }
+                if(IsKeyPressed(KEY_ENTER)){
+                    label += currentBtn.ToString();
+                }
                 
                 Raylib.BeginDrawing();
                     Raylib.ClearBackground(Color.WHITE);
 
-                    Raylib.DrawText("PotatoGames", 12, 12, 20, Color.BLACK);
+                    Raylib.DrawText(label, 12, 12, 20, Color.BLACK);
 
                     Console.WriteLine(currentBtn);
 

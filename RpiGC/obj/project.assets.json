@@ -121,11 +121,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kotanamy/Documents/Csharp/RpiGC/RpiGC/RpiGC.csproj",
+      "projectUniqueName": "/Users/kotanamy/Documents/Workspace/Csharp/RpiGC/RpiGC/RpiGC.csproj",
       "projectName": "RpiGC",
-      "projectPath": "/Users/kotanamy/Documents/Csharp/RpiGC/RpiGC/RpiGC.csproj",
+      "projectPath": "/Users/kotanamy/Documents/Workspace/Csharp/RpiGC/RpiGC/RpiGC.csproj",
       "packagesPath": "/Users/kotanamy/.nuget/packages/",
-      "outputPath": "/Users/kotanamy/Documents/Csharp/RpiGC/RpiGC/obj/",
+      "outputPath": "/Users/kotanamy/Documents/Workspace/Csharp/RpiGC/RpiGC/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kotanamy/.nuget/NuGet/NuGet.Config"
